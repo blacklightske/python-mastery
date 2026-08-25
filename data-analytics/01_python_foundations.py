@@ -1,4 +1,4 @@
-sales = [12000, 15000, 9000, 18000, 25000]
+ggitonga170@gmail.comsales = [12000, 15000, 9000, 18000, 25000]
 
 print("Number of sales records:", len(sales))
 print("Total sales:", sum(sales))
