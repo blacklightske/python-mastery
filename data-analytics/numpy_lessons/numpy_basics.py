@@ -9,4 +9,4 @@ print("the average is :",sales.mean())
 print("the highet value is:",sales.max())
 print("the lowest value is:",sales.min())
 projected_sales=sales*1.1
-print("increased price is:",projected_sales)
+print("increased sales is:",projected_sales)
