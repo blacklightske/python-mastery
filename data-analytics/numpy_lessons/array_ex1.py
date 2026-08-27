@@ -6,16 +6,24 @@ sales = np.array([
     [120, 220, 320, 420]
 ])
 
-#print(sales.ndim,sales.shape,sales.size,sales)
+print("exercise a ",sales.ndim,sales.shape,sales.size,sales)
 #ex b
-print(sales[0:])
+print("monday milk sales",sales[0,0])
+print("tuesday sugar sales",sales[1,2])
+print("wednesday juice sales",sales[2,3])
 
 
 
-
+#exedrcise c
 mon_sales=sum(sales[0,:])
-print(mon_sales)
+print("mon sales are ",mon_sales)
 sugar_sales=sum(sales[:,2])
-print(sugar_sales)
+print("sugar sales are ",sugar_sales)
 juice_sales=sum(sales[:,3])
-print(juice_sales)
+print("juice sales are ",juice_sales)
+
+
+# ex d
+#adress of the item in row 3 column 1  ..this are indexes 
+#ndim tells us the dimention of the array if its 3d or 2d (like number if rows array has)
+#size tells us the total number of items in the array
