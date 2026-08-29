@@ -15,7 +15,7 @@ print("wednesday juice sales",sales[2,3])
 
 
 #exedrcise c
-mon_sales=sum(sales[0,:])
+mon_sales=sales[0,:].sum(). #alternative ue of sum this is for numpy 
 print("mon sales are ",mon_sales)
 sugar_sales=sum(sales[:,2])
 print("sugar sales are ",sugar_sales)
