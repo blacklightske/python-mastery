@@ -10,8 +10,8 @@ print(revenue)
 #ex 2
 print(products[quantity>10])
 #ex3
-new_prices=prices*11.5
-print(new_prices)
+new_prices=prices*1.15
+print(new_prices )
 
 #milk
 #juice
