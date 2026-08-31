@@ -21,3 +21,7 @@ print("max is:",sales.max())
 #the strongest sales value is 20000
 #the average bing higher than the median it suggests that there are some days the 
 # sales spikes more than others hence the diference observed 
+average=sales.mean()
+print('avrage is ,',sales>average)
+print((sales>average).sum())
+print(sales[sales>average])
