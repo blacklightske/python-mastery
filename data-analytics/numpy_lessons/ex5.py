@@ -13,6 +13,6 @@ days = np.array([
 print("average is",sales.mean())
 print("diff with average ",sales-np.mean(sales))
 diff=sales-np.mean(sales)
-print('furthest from average',diff[diff.argmax()])
-print('furthest below average',diff[diff.argmin()])
+print('furthest from average',days[diff.argmax()])
+print('furthest below average',days[diff.argmin()])
 #this tells the owner the varance of sales in the das which are perfoming okay and which days are getting highest number of ssles or perfoming okay 
