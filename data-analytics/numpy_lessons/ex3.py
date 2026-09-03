@@ -12,8 +12,8 @@ days = np.array([
 ])
 print("day with highest sales",days[(sales.argmax())])
 print("day with lowest sales",days[sales.argmin()])
-print("highest sales ",sales.argmax())
-print("actual sales on the worst day ",sales.argmin())
+print("highest sales ",sales.max())
+print("actual sales on the worst day ",sales.min())
 diff= sales.max()-sales.min()
 print("sales difference between worst and best day ",diff)
 
