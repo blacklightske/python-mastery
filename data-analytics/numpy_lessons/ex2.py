@@ -17,7 +17,7 @@ print("median is:",np.median(sales))
 #the media. is
 print("min is:",sales.min())
 #the weakest sales value is 8000
-print("max is:",sales.max())
+print("max is:",np.max(sales))
 #the strongest sales value is 20000
 #the average bing higher than the median it suggests that there are some days the 
 # sales spikes more than others hence the diference observed 
