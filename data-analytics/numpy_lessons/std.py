@@ -20,3 +20,6 @@ days = np.array([
     "Sunday"
 ])
 print("standard deviation as observed is ",np.std(sales))
+print("25th percentile",np.percentile(sales,25))
+print("50th percentile",np.percentile(sales,50))
+print("75th percentile",np.percentile(sales,75))
