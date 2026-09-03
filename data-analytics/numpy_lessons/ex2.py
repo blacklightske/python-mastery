@@ -25,3 +25,4 @@ average=sales.mean()
 print('avrage is ,',sales>average)
 print((sales>average).sum())
 print(sales[sales>average])
+#days of the week 
